@@ -1,4 +1,4 @@
-# Projeto back-end com Node.js com Typescript
+# Projeto Desenvolvido com Node.js com Typescript
 
 Este projeto pode codificar strings em valores ASCII e decodificá-las.
 
@@ -8,7 +8,7 @@ A string inserida via parâmetro no endpoint, exemplo: (GET) "http://localhost:8
 
 # Para decodificar
 
-Este valor deve ser inserido via json no endpoint: (GET) "http://localhost:8080/v1/decoding", da seguinte forma {"ascii": "valor recebido"}, e a resposta será a string préviamente codificada.
+Este valor deve ser inserido via json no endpoint: (GET) "http://localhost:8080/v1/decoding", da seguinte forma {"ascii": "valor recebido anteriormente"}, e a resposta será a string préviamente codificada.
 
 # Para instalar Dependências do Projeto
 
@@ -24,14 +24,6 @@ Este valor deve ser inserido via json no endpoint: (GET) "http://localhost:8080/
   yarn dev
   or
   npm run dev
-```
-
-# Para construir aplicativo
-
-```bash
-  yarn build
-  or
-  npm run build
 ```
 
 # Para realizar o teste unitário
